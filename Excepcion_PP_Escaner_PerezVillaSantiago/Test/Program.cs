@@ -9,11 +9,11 @@ internal class Program
         //Si encuentra AnioCeroException que me escriba por consola el mensaje y el nombre de la excepción.
         try
         {
-            Libro libro1 = new Libro("Rayuela", "Cortazar", -21, "752", "65", 20);
+            Libro libro3 = new Libro("Rayuela", "Cortazar", 0, "752", "65", 20);
         }
         catch (AnioCeroException ac)
         {
-            Console.WriteLine($"ERROR: {ac.Message} Producido en {ac.NombreMetodo}");
+            Console.WriteLine($"ERROR: {ac.Message} Ubicación del error: {ac.LugarError}");
         }
     }
 }

@@ -8,17 +8,17 @@ namespace Entidades;
 public class AnioCeroException : Exception
 {
     //Campos
-    string nombreMetodo;
+    string lugarError;
 
     //Constructor de la excepción
-    public AnioCeroException(string Message, string nombreMetodo, Exception innerException)
+    public AnioCeroException(string Message, string lugarError, Exception innerException)
         : base(Message, innerException)
     {
-        this.nombreMetodo = nombreMetodo;
+        this.lugarError = lugarError;
     }
 
-    public string NombreMetodo
+    public string LugarError
     {
-        get => this.nombreMetodo;
+        get => this.lugarError;
     }
 }

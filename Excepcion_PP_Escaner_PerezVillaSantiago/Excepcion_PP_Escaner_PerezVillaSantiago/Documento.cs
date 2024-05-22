@@ -29,7 +29,7 @@ public abstract class Documento
         {
             //Lanze la excepcion AnioCero, le introduzco el mensaje, el nombre y la excepción que quiero que entre, en este caso argumentexception,
             //ya que la idea es que el año del documento sea del 0 en adelante, por lo que la excepción se produce en los parámetro del constructor
-            throw new AnioCeroException("el año no puede ser negativo o 0.", "año ingresado del documento", new ArgumentException("El año que ingresa por el constructor es 0 o menor"));
+            throw new AnioCeroException("el año no puede ser negativo o 0.", "el parámetro anio del constructor del documento",new ArgumentException("El año que ingresa por el constructor es 0 o menor"));
         }
         this.anio = anio;
         this.autor = autor;
