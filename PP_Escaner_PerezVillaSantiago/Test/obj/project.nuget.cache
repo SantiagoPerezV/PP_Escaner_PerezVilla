@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "l9SzCCxhY9gYVd/YbjMhUrniY2BikKl0dfAzv3Neo4nMAxigauZh8RiCp7EypnLckrFwXohgqovhtjeLCmsDYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\santi\\Documents\\U.T.N\\U.T.N 2do cuatri\\Progra y Labo 2\\PP_Escaner_PerezVillaSantiago\\Test\\Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\santi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.19\\microsoft.windowsdesktop.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\santi\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.19\\microsoft.netcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\santi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.19\\microsoft.aspnetcore.app.ref.7.0.19.nupkg.sha512",
+    "C:\\Users\\santi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.19\\microsoft.netcore.app.host.win-x64.7.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}
