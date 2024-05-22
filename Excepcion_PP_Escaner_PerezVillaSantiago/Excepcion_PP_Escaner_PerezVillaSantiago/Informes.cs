@@ -50,7 +50,7 @@ public static class Informes
         MostrarDocumentosPorEstado(e, Documento.Paso.EnRevision, out extension, out cantidad, out resumen);
     }
 
-    public static void MostrarTerminado(Escaner e, out int extension, out int cantidad, out string resumen)
+    public static void MostrarTerminados(Escaner e, out int extension, out int cantidad, out string resumen)
     {
         MostrarDocumentosPorEstado(e, Documento.Paso.Terminado, out extension, out cantidad, out resumen);
     }
